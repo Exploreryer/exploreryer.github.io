@@ -5,13 +5,17 @@ description: "被问题牵引，进而不断探索"
 header-img: "img/green.jpg"
 ---
 
-这一页填写你的自我介绍。
+联系作者
 
-Telegram:@Exploreryer
+Telegram：@exploreryer
 
-Twitter:@Exploreryer
+Email：[exploreryer@foxmail.com](mailto:exploreryer@foxmail.com)
 
+博客：[www.exploreryer.top](https://www.yuque.com/zhaojichao/qx6113/ryhz45www.exploreryer.top)
 
+播客； Vlog：
+
+微信公众号：exploreryer
 
 
 
