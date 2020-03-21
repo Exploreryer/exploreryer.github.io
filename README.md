@@ -1,8 +1,10 @@
-联系方式：exploreryer@gmail.com
+## 说明
+
+此博客 fork 自 [cnfeat](https://github.com/cnfeat)，多谢。
 
 
-## 模板作者
+## 联系
 
-陈素封，博客：独立写生：[cnfeat.com](cnfeat.com)
+Telegram：@exploreryer
 
-联系方式：exploreryer@gmail.com
+Email：exploreryer@gmail.com
