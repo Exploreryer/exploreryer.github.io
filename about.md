@@ -9,13 +9,5 @@ header-img: "img/green.jpg"
 
 Telegram：@exploreryer
 
-Email：[exploreryer@foxmail.com](mailto:exploreryer@foxmail.com)
-
-博客：[www.exploreryer.top](https://www.yuque.com/zhaojichao/qx6113/ryhz45www.exploreryer.top)
-
-播客； Vlog：
-
-微信公众号：exploreryer
-
-
+Email：[exploreryer@gmail.com](mailto:exploreryer@gmail.com)
 
