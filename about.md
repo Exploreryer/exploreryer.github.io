@@ -5,9 +5,8 @@ description: "被问题牵引，进而不断探索"
 header-img: "img/green.jpg"
 ---
 
-联系作者
-
-Telegram：@exploreryer
-
-Email：[exploreryer@gmail.com](mailto:exploreryer@gmail.com)
-
+TODO:- [ ] Add a bio
+在 t.me/exploreryertalk 说话
+在 exploreryer.com 写作
+Telegram： https://t.me/exploreryer 
+电子邮件：exploreryer@protonmail.com
