@@ -1,0 +1,112 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'zh-cn'
+title = 'Exploreryer'
+theme = 'PaperMod'
+
+# 作者信息
+[params]
+  author = 'Exploreryer'
+  description = '被问题牵引，进而不断探索'
+  keywords = ['blog', 'exploreryer', '技术', '思考']
+  
+  # 启用 Home-Info 模式
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  
+  # 首页个人介绍
+  [params.homeInfoParams]
+    Title = "Exploreryer"
+    Content = """
+    被问题牵引，进而不断探索。
+    """
+  
+  # 社交媒体
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/Exploreryer'
+  
+  [[params.socialIcons]]
+    name = 'twitter'
+    url = 'https://twitter.com/Exploreryer'
+  
+  [[params.socialIcons]]
+    name = 'mail'
+    url = 'mailto:exploreryer@protonmail.com'
+  
+  # 评论系统
+  comments = true
+  commentsRepo = 'exploreryer/exploreryer.github.io'
+  commentsIssueTerm = 'pathname'
+  
+  # 分析工具
+  googleAnalytics = ''
+  
+  # 搜索功能
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+# 菜单配置
+[[menu.main]]
+  identifier = 'archives'
+  name = '归档'
+  url = '/archives/'
+  weight = 10
+
+# 隐藏分类和标签菜单
+# [[menu.main]]
+#   identifier = 'categories'
+#   name = 'categories'
+#   url = '/categories/'
+#   weight = 20
+
+# [[menu.main]]
+#   identifier = 'tags'
+#   name = 'tags'
+#   url = '/tags/'
+#   weight = 30
+
+[[menu.main]]
+  identifier = 'about'
+  name = '关于'
+  url = '/about/'
+  weight = 40
+
+# 分类和标签
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  series = 'series'
+
+# 分页
+paginate = 8
+
+# 时区
+timezone = 'Asia/Shanghai'
+
+# 构建设置
+[build]
+  writeStats = true
+
+# 安全设置
+[security]
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$']
+
+# 渲染钩子
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    noHl = false
+    style = 'monokai' 
