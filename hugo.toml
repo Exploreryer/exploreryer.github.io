@@ -33,8 +33,16 @@ theme = 'PaperMod'
     url = 'https://twitter.com/Exploreryer'
   
   [[params.socialIcons]]
-    name = 'mail'
+    name = 'rss'
+    url = '/index.xml'
+  
+  [[params.socialIcons]]
+    name = 'email'
     url = 'mailto:exploreryer@protonmail.com'
+  
+  # 统计服务
+  umami = "e8d165d1-ec79-4b7a-a5e9-c3e98bd39005"
+  umamiUrl = "https://umami.puzzlex.site"
   
   # 评论系统
   comments = true
@@ -55,6 +63,12 @@ theme = 'PaperMod'
     keys = ["title", "permalink", "summary", "content"]
 
 # 菜单配置
+[[menu.main]]
+  identifier = 'search'
+  name = '搜索'
+  url = '/search/'
+  weight = 5
+
 [[menu.main]]
   identifier = 'archives'
   name = '归档'
@@ -88,6 +102,15 @@ theme = 'PaperMod'
 
 # 分页
 paginate = 8
+
+# 输出格式
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  list = ["HTML", "RSS"]
+  single = ["HTML"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
 
 # 时区
 timezone = 'Asia/Shanghai'
