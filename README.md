@@ -5,20 +5,9 @@
 ## 技术栈
 
 - **静态站点生成器**: Hugo
-- **主题**: PaperMod
+- **主题**: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
 - **部署**: GitHub Pages
 
-## 本地开发
+## 致谢
 
-```bash
-# 启动本地服务器
-hugo server --bind 0.0.0.0 --port 1313
-
-# 构建网站
-hugo --minify
-```
-
-## 联系
-
-- Telegram：@exploreryer
-- Email：exploreryer@gmail.com
+感谢 [PaperMod](https://github.com/adityatelange/hugo-PaperMod)及其贡献者 ❤️
