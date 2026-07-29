@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy — Tab Group Exporter"
-date: 2026-07-28T00:00:00+08:00
+date: 2026-07-29T00:00:00+08:00
 draft: false
 url: "/tab-group-exporter/privacy/"
 description: "Privacy policy for the Tab Group Exporter Chrome extension."
@@ -10,7 +10,7 @@ ShowPostNavLinks: false
 ShowBreadCrumbs: false
 ---
 
-_Last updated: July 28, 2026_
+_Last updated: July 29, 2026_
 
 Tab Group Exporter is designed to work entirely on your device.
 
@@ -20,7 +20,9 @@ When you open the extension, it reads the titles, URLs, tab-group names, tab-gro
 
 When you choose an export file to import, the extension reads that selected file locally to build an import preview. It then opens only the items you select.
 
-If you choose **Save to bookmarks**, Chrome asks for optional bookmark access. After you grant it, the extension creates or reuses **Other bookmarks › Tab Groups**. It reads only that managed folder and its direct group folders to find matching folders and URLs that are already saved, then adds the selected bookmarks. It does not scan or reorganize the rest of your bookmark library.
+If you choose **Save to bookmarks**, Chrome asks for optional bookmark access. The default destination is **Other bookmarks › Tab Groups**. If you open the destination selector, the extension reads the bookmark folder tree locally so it can show the available folders. It does not display or inspect bookmark URLs while choosing a destination.
+
+After you choose a destination, the extension creates or reuses a **Tab Groups** folder inside it. It reads that managed folder and its direct group folders to find matching folders and URLs that are already saved, then adds the selected bookmarks. It does not reorganize unrelated bookmarks.
 
 Before saving, you can choose **Keep tabs open** or **Close selected tabs**. Tabs are closed only after the bookmark operation succeeds, and only the selected, supported web tabs are affected. If bookmark creation fails, no tabs are closed. If a write fails partway through, the extension attempts to remove only the nodes created by that incomplete attempt.
 
@@ -38,7 +40,7 @@ The extension does not maintain its own database of your tabs, browsing activity
 
 - `tabs`: used to read the URL and title of tabs in the current window, open selected tabs during import, and close selected tabs only when you explicitly choose **Close selected tabs** after a bookmark save.
 - `tabGroups`: used to read group names, colors, and collapsed state during export, and to create or update Chrome tab groups during import.
-- Optional `bookmarks`: requested only when you choose **Save to bookmarks** and confirm the action. It is used to create or reuse the managed **Tab Groups** folder, read its direct contents for matching folders and duplicate URLs, add selected bookmarks, and remove only nodes created by an incomplete attempt where possible.
+- Optional `bookmarks`: requested only when you use **Save to bookmarks** or open the destination selector. It is used to show bookmark folders, create or reuse the managed **Tab Groups** folder in the chosen destination, read its direct contents for matching folders and duplicate URLs, add selected bookmarks, and remove only nodes created by an incomplete attempt where possible.
 
 These permissions are used only for the extension's single purpose: moving selected tab groups in the current Chrome window into portable files or Chrome bookmarks, optionally closing successfully saved tabs, and importing supported files back into Chrome.
 
