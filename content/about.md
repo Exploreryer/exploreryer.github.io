@@ -3,6 +3,7 @@ title: "关于"
 date: 2024-01-01T00:00:00+08:00
 draft: false
 description: "被问题牵引，进而不断探索"
+disableShare: true
 ---
 
 在 t.me/exploreryertalk 说话
