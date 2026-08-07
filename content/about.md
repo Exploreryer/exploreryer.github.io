@@ -9,8 +9,8 @@ TODO:- [ ] Add a bio
 
 在 t.me/exploreryertalk 说话
 
-在 exploreryer.com 写作
+在 exploreryer.online 写作
 
 Telegram： https://t.me/exploreryer
 
-电子邮件：exploreryer@protonmail.com 
+电子邮件：exploreryer@protonmail.com
