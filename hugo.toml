@@ -101,7 +101,8 @@ theme = 'PaperMod'
   series = 'series'
 
 # 分页
-paginate = 8
+[pagination]
+  pagerSize = 8
 
 # 输出格式
 [outputs]
@@ -132,4 +133,4 @@ timezone = 'Asia/Shanghai'
   [markup.highlight]
     noClasses = false
     noHl = false
-    style = 'monokai' 
+    style = 'monokai'
