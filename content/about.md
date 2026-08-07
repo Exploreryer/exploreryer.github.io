@@ -5,8 +5,6 @@ draft: false
 description: "被问题牵引，进而不断探索"
 ---
 
-TODO:- [ ] Add a bio
-
 在 t.me/exploreryertalk 说话
 
 在 exploreryer.online 写作
