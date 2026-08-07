@@ -52,10 +52,8 @@
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
-    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
-    {{- if and (ne .Title "关于") (ne .Type "posts") }}
+    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true) (ne .Title "关于")) }}
     {{- partial "share_icons.html" . -}}
-    {{- end }}
     {{- end }}
   </footer>
 
@@ -64,4 +62,4 @@
   {{- end }}
 </article>
 
-{{- end }}{{/* end main */}} 
+{{- end }}{{/* end main */}}
