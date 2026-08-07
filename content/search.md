@@ -5,4 +5,5 @@ outputs:
     - html
     - json
 placeholder: "搜索文章..."
---- 
+robotsNoIndex: true
+---
