@@ -2,6 +2,7 @@ baseURL = 'https://exploreryer.online/'
 languageCode = 'zh-cn'
 title = 'Exploreryer'
 theme = 'PaperMod'
+enableRobotsTXT = true
 
 # 作者信息
 [params]
